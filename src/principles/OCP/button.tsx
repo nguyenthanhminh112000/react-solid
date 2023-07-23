@@ -1,12 +1,12 @@
-import {
-  HiOutlineArrowNarrowRight,
-  HiOutlineArrowNarrowLeft,
-} from "react-icons/hi";
+// import {
+//   HiOutlineArrowNarrowRight,
+//   HiOutlineArrowNarrowLeft,
+// } from "react-icons/hi";
 
 interface IButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
-  role?: "back" | "forward" | "main" | "not-found";
+  // role?: "back" | "forward" | "main" | "not-found";
   icon?: React.ReactNode;
 }
 
